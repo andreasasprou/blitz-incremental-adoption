@@ -9,7 +9,7 @@ module.exports = {
       },
       {
         source: '/blitz/:path*',
-        destination: `${BLOG_URL}/blog/:path*`,
+        destination: `${BLOG_URL}/blitz/:path*`,
       },
     ]
   },
