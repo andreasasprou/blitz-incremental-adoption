@@ -4,11 +4,11 @@ module.exports = {
   rewrites() {
     return [
       {
-        source: '/blog',
-        destination: `${BLOG_URL}/blog`,
+        source: '/blitz',
+        destination: `${BLOG_URL}/blitz`,
       },
       {
-        source: '/blog/:path*',
+        source: '/blitz/:path*',
         destination: `${BLOG_URL}/blog/:path*`,
       },
     ]
