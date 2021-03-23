@@ -5,11 +5,11 @@ module.exports = {
     return [
       {
         source: '/blitz',
-        destination: `${BLOG_URL}/blitz`,
+        destination: `${BLOG_URL}`,
       },
       {
         source: '/blitz/:path*',
-        destination: `${BLOG_URL}/blitz/:path*`,
+        destination: `${BLOG_URL}/:path*`,
       },
     ]
   },
